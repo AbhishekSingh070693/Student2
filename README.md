@@ -62,6 +62,9 @@ wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.119/bin/apache-tomcat-9.0.119
 
 # Extract to /opt directory
 sudo tar -xzf apache-tomcat-9.0.119.tar.gz -C /opt/
+
+# Rename for simplicity
+sudo mv /opt/apache-tomcat-9.0.119 /opt/apache-tomcat-9.0.119
 Why /opt? The /opt directory is used for optional/add-on software packages that are not part of the default system. Tomcat is a static application server, making /opt the appropriate location.
 3.2 Changing Ownership
 # Change ownership of Tomcat directory to tomcat user
